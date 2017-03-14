@@ -1,0 +1,323 @@
+body {
+  background-color: black;
+  
+  position: relative;
+  text-align: center;
+  align-content: center;
+  
+}
+
+body.about {
+  background-color: white;
+}
+
+body.curriculum, body.portfolio, body.library, body.blog {
+  background-color: white;
+}
+
+header.main {
+  align-content: center;
+  text-align: center;
+  
+  position: relative;
+  height: 160px;
+  min-width: 600px;
+  max-width: 800px;
+  box-sizing: content-box;
+  
+  background-color: darkblue;
+  border-radius: 50px;
+  margin: 10px auto 0px auto;
+  padding: 0px;
+  overflow: hidden;
+  
+  display: inline-block;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+header.pages, hr.pages, div.pages-content {
+  align-content: center;
+  text-align: justify;
+  
+  min-width: 700px;
+  max-width: 1000px;
+  margin-bottom: 20px;
+  
+  display: inline-block;
+  clear: both;
+  float: none;
+}
+
+header.the-three {
+  align-content: center;
+  text-align: center;
+  
+  position: relative;
+  min-width: 700px;
+  max-width: 33%;
+  margin: 20px auto 0px auto;
+  box-sizing: content-box;
+  
+  display: block;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+div.the-three-content {
+  position: relative;
+  min-width: 700px;
+  max-width: 1000px;
+  margin: 0px auto 2px auto;
+  
+  display: inline-block;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+div.link {
+  margin-bottom: 50px;
+}
+
+h1 {
+  /*text-align: center;*/
+  font-family: "Candara", sans-serif;
+  font-size: 4.25em;
+  text-align: justify;
+  
+  padding-left: 5%;
+  margin-top: 15px;
+  margin-bottom: 0em;
+  
+  background-color: lime;
+  
+}
+
+h2 {
+  font-family: "Candara", sans-serif;
+  font-size: 3.5em;
+  text-align: justify;
+  
+  padding-left: 5%;
+  margin-top: 20px;
+  margin-bottom: 0em;
+  
+  background-color: lime; 
+}
+
+h3.main {
+  font-family: "Tw Cen MT", serif;
+  font-size: 2.25em;
+  text-transform: uppercase;
+  letter-spacing: 1.5em;
+  text-align: center;
+  
+  padding-left: 5%;
+  margin-top: 0em;
+  margin-bottom: 50px;
+ 
+  background-color: aqua;
+    
+}
+
+h3.the-three-heading {
+  font-family: "Tw Cen MT", serif;
+  font-size: 2.25em;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1.5em;
+  
+  margin-top: 0em;
+  margin-bottom: 15px;
+  
+  background-color: aqua;
+}
+
+h3.motto {
+  font-family: "Century", "Garamond", serif;
+  font-size: 34px;
+  color: white;
+}
+
+h4 {
+  text-align: justify;
+  font-size: 1.5em;
+  
+}
+
+hr {
+  background-color: darkblue;
+  border: 0px solid white;
+  margin: 0px;
+  
+  clear: both;
+}
+
+a {
+  color: black;
+}
+
+p {
+  font-family: "Constantia";
+  font-size: 0.75em;
+  color: black;
+  
+  text-align: justify;
+}
+
+p.p {
+  text-align: justify;
+  
+  font-size: 1.10em;
+}
+
+p.pp {
+  font-family: "Constantia";
+  font-size: 1.25em;
+  color: black;
+  
+  text-align: justify;
+  clear: both;
+  
+  margin: 10px;
+  margin-top: 15px;
+}
+
+ul.library {
+  font-size: 1.25em;
+  
+  padding: 10px;
+  
+  display: inline-block;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+
+.nav {
+  align-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  
+  box-sizing: content-box;
+  position: relative;
+}
+
+.nav a {
+  color: blue;
+}
+
+.nav p {
+  color: black;
+}
+
+.nav-box {
+  font-family: "Candara";
+  font-size: 20px;
+  text-align: center;
+  background-color: aliceblue;
+  align-content: center;
+  
+  position: relative;
+  padding: 10px;
+  border: 15px ridge greenyellow;
+  border-radius: 15px;
+  margin-right: 10px;
+  margin-top: 30px;
+  width: 250px;
+  height: 300px;
+  box-sizing: border-box;  
+  
+  display: inline-block;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.nav-box:hover {
+  background: darkblue;
+  color: white;
+  border: 15px ridge white;
+}
+
+.nav-box:hover p {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-box:active {
+  top: 5px;
+}
+
+#nav-portfolio {
+  
+}
+
+#nav-curriculum {
+  
+}
+
+
+
+footer {
+  align-content: center;
+  text-align: center;
+  width: 100%;
+  
+  padding: 10px;
+  margin-top: 100px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  border-top: 3px ridge green;
+  
+  position: absolute;
+}
+
+.footer-li {
+  font-family: "Tw Cen MT";
+  font-size: 1.25em;
+  text-align: center;
+  text-transform: uppercase;
+  
+  background-color: darkblue;
+  
+  position: relative;
+  padding: 10px;
+  border: 5px ridge white;
+  border-radius: 5px;
+  margin-right: 10px;
+  max-width: 100px;
+  min-width: 50px;
+  
+  display: inline-block;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-li {
+  color: white;
+}
+
+footer li {
+  text-align: center;
+  position: relative;
+  
+  display: inline-block;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-li:hover {
+  background-color: aliceblue;
+  border: 5px ridge greenyellow;
+}
+
+.footer-li:hover {
+  color: blue;
+}
+
+.footer-li:active {
+  top: 5px;
+}
